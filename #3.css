@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    overflow: auto;
+}
+img {
+    width: 300px;
+    height:300px;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-top: -10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 5%;
+    height: 100vh;
+}
+.logo-paragraph {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -50px;
+    position: relative;
+    float: left;
+}
+.visor-scroll {
+    font-size: 1.5rem;
+    font-weight:300;
+}
+
+.login-info {
+    border: 4px solid red;
+    padding: 10px;
+    width: 360px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    box-shadow: 1rem #666;
+}
+form {
+    display: inline-block;
+    align-items: center;
+    padding-bottom: 30px;
+}
+input{
+    width:300px;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 2x;
+    margin-left: 15px;
+}
+
+input[type=button] {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    padding: 0px -10px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    background-color: #000;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+span {
+    margin: 3rem;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+#create-a-page {
+    color: #000;
+    font-weight: 600;
+
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#forgotten-password {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    line-height: 1rem;
+    margin-right: 1rem;
+    font-weight: 300;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    padding-top: 1rem;
+    overflow: auto;
+}
+
+@media (max-width:750px){
+    body {
+        overflow: scroll;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-behavior: smooth;
+        padding-bottom: 100px;
+    }
+    .login-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: unset;
+    }
+
+    .logo-paragraph {
+        margin: 0;
+        margin-bottom: 20px;
+        max-width: 360px;
+
+    }
+    footer {
+        overflow: hidden;
+    }
+}
