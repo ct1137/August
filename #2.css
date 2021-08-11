@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li, a, button {
+    text-decoration: none;
+    list-style: none;
+    color: #434343;
+}
+
+#about {
+    margin-left: 20px;
+    margin-right: 10px;
+    color: #000;
+}
+
+#cmail {
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 100px;
+    color: #000;
+}
+
+#store, #images {
+    color: #000;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+img {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-box {
+    margin: 10px;
+    margin-left: 100px;
+    padding: 32px 320px;
+    width: 80vh; 
+    border: none;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 30px;
+    border: none;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+}
+
+img {
+    width: 100px;
+    margin-left: 190px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+input[type=text] {
+    width: 80vw;
+    height: 32px;
+    border-radius: 20px;
+}
+
+.twin-btn {
+    margin-left: 115px;
+}
+
+button:hover {
+    border: 0.01px solid #cccccc;
+    transition: 0ms;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+#carbon:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+    font-style: #b7b7b7;
+    color: #434343;
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+li {
+    display: inline;
+    font-size: 12px;
+}
+
+
+.advertising3 {
+    margin: 20px;
+}  
+
+#united-kingdom {
+    padding: 10px;
+    color: #434343;
+}
+
+#carbon {
+    padding-left: 240px;
+}
+
+#advertising {
+    margin-right: 20px;
+    color: #666666;
+}
+#business {
+    margin-right: 20px;
+}
+#how-search-works {
+    margin-right: 20px;
+}
+#privacy {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+#terms {
+    margin-right: 20px;
+}
+
